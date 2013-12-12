@@ -1,0 +1,4 @@
+
+Some rough Python scripts to automate network topology retrieval,
+analysis, diagramming, and storage/history.  Not too pretty, especially
+the diagramming bits; will improve over time.

@@ -21,7 +21,7 @@ import networkx as nx
 def url_node(node):
     """Takes a node name as input, returns a URL with node name embedded
      in a useful way."""
-    url = "http://rst-nms-splunk01.corp.tnsi.com:8000"
+    url = "http://localhost:8000"
     url = url + "/en-US/app/search/flashtimeline?q=search%20"
     url = url + "%s" %node
     url = url + "&earliest=0"
